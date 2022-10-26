@@ -5,3 +5,4 @@ node{
    stage('unit testing'){
      sh  'maven test'
    }
+}
