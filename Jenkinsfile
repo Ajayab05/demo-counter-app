@@ -3,6 +3,6 @@ node{
      git 'https://github.com/Ajayab05/demo-counter-app.git'
    }
    stage('unit testing'){
-     sh  'mvnw test'
+     sh  'maven3 test'
    }
 }
